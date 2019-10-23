@@ -3,5 +3,5 @@ class Person
   
   def initialize(attribute)
   attribute.each { |key, value| self.send((#{key}=), value)}
-end
+  end
 end
